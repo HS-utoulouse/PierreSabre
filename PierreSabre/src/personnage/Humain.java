@@ -75,7 +75,6 @@ public class Humain {
 	public void listerConnaissance() {
 		for (int i = 0; i < this.nbConnaissance; i++) {
 			Humain homme2 = this.memoire[i];
-			System.out.println("(" + homme2.nom + ") - ");
 			homme2.direBonjour();
 		}
 	}
