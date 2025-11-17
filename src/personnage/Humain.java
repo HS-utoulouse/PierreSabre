@@ -28,6 +28,14 @@ public class Humain {
 		return argent;
 	}
 
+	public int getNbConnaissance() {
+		return nbConnaissance;
+	}
+
+	public Humain[] getMemoire() {
+		return memoire;
+	}
+
 	public void parler(String texte) {
 		System.out.println(texte);
 	}
@@ -77,12 +85,12 @@ public class Humain {
 		homme2.memoriser(this);
 	}
 
-	
 	public void listerConnaissance() {
 		String texte = "";
 		for (int i = 0; i < nbConnaissance; i++) {
 			Humain homme2 = memoire[i];
-			// texte = texte.concat(homme2.getNom() + ", "); // plus complexe moins compréhensible
+			// texte = texte.concat(homme2.getNom() + ", "); // plus complexe moins
+			// compréhensible
 			texte += homme2.getNom() + ", ";
 		}
 		parler("Je connais beaucoup de monde dont : " + texte);
