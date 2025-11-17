@@ -81,7 +81,7 @@ public class Humain {
 		String texte = "";
 		for (int i = 0; i < nbConnaissance; i++) {
 			Humain homme2 = memoire[i];
-			// texte = texte.concat(homme2.getNom() + ", ");
+			// texte = texte.concat(homme2.getNom() + ", "); // plus complexe moins compréhensible
 			texte += homme2.getNom() + ", ";
 		}
 		parler("Je connais beaucoup de monde dont : " + texte);
