@@ -6,7 +6,10 @@ import personnage.Yakuza;
 
 public class HistoireTP5 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { // j'ai mis de la couleur ici comme dans mon projet perso
+
+		System.out.println("\n\u001B[34m1- Les humains ont une mémoire\u001B[0m\n");
+
 		Commercant marco = new Commercant("Marco", 20);
 		Commercant chonin = new Commercant("Chonin", 40);
 		Commercant kumi = new Commercant("Kumi", 10);
@@ -19,9 +22,15 @@ public class HistoireTP5 {
 		marco.faireConnaissanceAvec(kumi);
 
 		System.out.println("");
-		
+
 		marco.listerConnaissance();
 		roro.listerConnaissance();
 		yaku.listerConnaissance();
+
+		System.out.println("\n\u001B[34m2- Le yakuza est fier de son clan\u001B[0m\n");
+		
+		yaku.direBonjour();
+		
+		
 	}
 }
