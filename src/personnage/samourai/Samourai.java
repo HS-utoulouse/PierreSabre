@@ -1,4 +1,6 @@
-package personnage;
+package personnage.samourai;
+
+import personnage.Humain;
 
 public class Samourai extends Humain {
 

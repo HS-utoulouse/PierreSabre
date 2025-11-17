@@ -2,9 +2,9 @@ package histoire;
 
 import personnage.Commercant;
 import personnage.Ronin;
-import personnage.Samourai;
-import personnage.Traitre;
 import personnage.Yakuza;
+import personnage.samourai.Samourai;
+import personnage.samourai.Traitre;
 
 public class HistoireTP5 {
 

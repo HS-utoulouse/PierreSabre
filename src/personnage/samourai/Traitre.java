@@ -1,6 +1,9 @@
-package personnage;
+package personnage.samourai;
 
 import java.util.Random;
+
+import personnage.Commercant;
+import personnage.Humain;
 
 public class Traitre extends Samourai {
 
